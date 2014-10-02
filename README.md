@@ -1,5 +1,5 @@
 ---
-tags: prime, arrays, iterators, logic
+tags: prime, arrays, iterators, logic, todo
 language: ruby
 resources: 3
 ---
