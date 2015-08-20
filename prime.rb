@@ -18,7 +18,7 @@ def prime?(number)
 
   end # end of 'each' loop
 
-return true
+true
 
 
 end
