@@ -1,7 +1,7 @@
 def prime?(number)
   # Negative numbers, zero, and 1 are NOT prime, so..
   return false if number<=1
-  # Now, I define a mehod that will return either the square root of a number (if the root is a whole number), or the sqrt rounded down to the nearest whole integer.
+  # Now, I define a method that will return either the square root of a number (if the root is a whole number), or the sqrt rounded down to the nearest whole integer.
   def sqrt_whole(x)
     z=x** 0.5
     if z%1==0
