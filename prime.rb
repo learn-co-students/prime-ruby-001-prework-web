@@ -1,6 +1,3 @@
-
-require 'pry'
-
 def prime?(number)
   #return false & break if number is 0 or 1
   if number <= 1
