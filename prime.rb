@@ -4,8 +4,8 @@ def prime?(int)
     return false
   end
 
-  (2..int-1).to_a.each do |x|
-    if int % x == 0
+  for d in (2..int-1) do
+    if int % d == 0
       return false
     end
   end
