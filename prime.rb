@@ -1,14 +1,16 @@
 # Add  code here!
 
 def prime?(number)
-  if number <= 1
-    return false
-  elsif number <= 3
-    return true
-  elsif number % 2 == 0 || number % 3 == 0
-    return false
+  array1 = []
+  stop = number - 1
+  collect = (2..stop).to_a
+  collect.each do |num|
+    array1 << number % num
+  end
+  if array1.include?(0) 
+    puts "not prime"
   else
-    return true
+    puts "prime"
   end
 end
 
