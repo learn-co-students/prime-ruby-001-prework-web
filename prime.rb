@@ -1,8 +1,8 @@
 def prime?(num)
- for d in 2..(num - 1)
+ for d in 3..(num - 1)
   if (num % d) == 0
-   return false
+    return true
   end
- end
- return true
+   return true
 end
+ end
