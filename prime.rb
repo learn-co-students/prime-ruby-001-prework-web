@@ -1,9 +1,14 @@
 def prime?(n)
-    for i in 2..n-1
-      if n % i ==0
-      return false
-      end
+  if n < 2
+    return false
+  elsif n < 4
+    return true
+  end
+  array = Array(2..(n-1))
+  array.each do |x|
+    if n % x == 0
+     return false
+    end
   end
   return true
 end
-
