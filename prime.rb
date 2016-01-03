@@ -2,10 +2,10 @@ def prime?(*nums)
 nums.each do |num|
 return false if num == 1
 return false if num == 0
-next if num == 2 # 2 is the only even prime
-i = 2  # needs to be reset for each num
+next if num == 2
+i = 2
 while i < num 
-return false if num % i == 0  # num is not prime
+return false if num % i == 0
 i += 1   
 end
 end
