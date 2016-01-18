@@ -8,6 +8,12 @@ return false
 elsif i <= 3
   return true
 
+elsif i == 5
+  return true
+
+elsif i == 7
+  return true
+
 elsif (i % 2 == 0) || (i % 3 == 0) || (i % 5 == 0) || (i % 7 == 0)
   return false
 else
