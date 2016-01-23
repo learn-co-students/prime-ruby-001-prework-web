@@ -1,14 +1,10 @@
 def prime?(number)
 
   case
-  when number < 2
+  when number < 2 || number == 4
     false
-  when number == 2
+  when number == 2 || number == 3
     true
-  when number == 3
-    true
-  when number == 4
-    false
   else
     i = 2
     until (number % i == 0) || Math.sqrt(number).floor == i
