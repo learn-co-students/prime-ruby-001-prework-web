@@ -1,11 +1,20 @@
-def prime?(x)
-  if x < 2
+def prime?(n)
+  if n <= 1
     return false
-  elsif (x == 2) || (x == 3)
+  elsif n <= 3
     return true
-  elsif (x % 2 == 0) || (x % 3 == 0) || (x % 5 == 0) || (x % 7 == 0) || (x % 11 == 0)
+  elsif
+    n % 2 == 0 || n % 3 == 0
     return false
-  else
-    return true
   end
+  i = 5
+  while i * i <= n
+    if n % i == 0 || n % (i + 2) == 0
+      return false
+    end
+    i += 6
+  end
+  return true
 end
+
+prime?(221)
