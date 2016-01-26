@@ -9,8 +9,8 @@ describe "prime?" do
   end
 
   it 'returns false for non-prime numbers' do
-    #expect(prime?(0)).to be(false)
-    #expect(prime?(1)).to be(false)
+    expect(prime?(0)).to be(false)
+    expect(prime?(1)).to be(false)
     expect(prime?(4)).to be(false)
     expect(prime?(40)).to be(false)
     expect(prime?(101013)).to be(false)
