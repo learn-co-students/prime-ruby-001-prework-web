@@ -90,7 +90,7 @@ def fermat_prime?(number)
   return true
 end
 
-Uncomment these to run benchmark tests.
+#Uncomment these to run benchmark tests.
 #puts Benchmark.measure {
 #  p prime?(5839)
 #}
