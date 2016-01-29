@@ -28,4 +28,4 @@ Think about the efficiency of your algorithm. How many iterations does it do? Lo
 * [Basic Benchmarking in Ruby](http://rubylearning.com/blog/2013/06/19/how-do-i-benchmark-ruby-code/)
 * [Wikipedia](http://en.wikipedia.org/) - [Prime number](http://en.wikipedia.org/wiki/Prime_number)
 
-<a href='https://learn.co/lessons/prime-ruby' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/prime-ruby' title='Implementing Prime'>Implementing Prime</a> on Learn.co and start learning to code for free.</p>
