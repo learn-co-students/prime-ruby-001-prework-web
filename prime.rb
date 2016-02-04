@@ -9,10 +9,10 @@ def prime?(integer)
   if integer <= 1
     return false
   else
-      if new_array.count(0) == 1
-        return true  
+      if new_array.count(0) > 1
+        return false  
       else
-        return false
+        return true
       end
   end
 end
