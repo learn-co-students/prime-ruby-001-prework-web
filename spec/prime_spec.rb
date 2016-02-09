@@ -16,3 +16,5 @@ describe "prime?" do
     expect(prime?(101013)).to be(false)
   end
 end
+
+puts(prime?(4))
