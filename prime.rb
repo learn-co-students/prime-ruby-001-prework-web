@@ -7,9 +7,11 @@ def prime?(number)
     true
   else
     i = 2
+
     until (number % i == 0) || Math.sqrt(number).floor == i
       i += 1
-      end
+    end
+
     if Math.sqrt(number).floor == i then true else false end
   end
 
