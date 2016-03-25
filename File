@@ -1,0 +1,15 @@
+def prime?(n)
+   if (n <= 1)
+   false
+   else
+   x = 2
+   until x == n - 1 do
+         test =  n % x
+         if test == 0
+         return false
+         end
+   x += 1
+   end
+true
+end
+end
