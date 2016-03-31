@@ -4,7 +4,8 @@ def prime? (int)
     return false
   end
 
-  for num in 2..(int/2)
+  nums = 2..int/2
+  for num in nums
     if (int % num) == 0
       return false
     end
