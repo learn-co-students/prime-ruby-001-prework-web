@@ -1,21 +1,13 @@
 # Add  code here!
 def prime?(num)
-	
-	if num <= 1
+	if num < 2
 		return false 
 	end 
-	
-	ind = num-1
-	while ind > 1 
-		if num%ind==0
-			return false  
-			break	
-		end
-		
-		ind-=1
+	for i in 2...num
+		if num%i==0
+			return false
+		end 
 	end 
-	
-	true 
+	return true 
 end 
 
-puts prime?(4)
