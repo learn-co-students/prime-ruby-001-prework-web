@@ -16,11 +16,10 @@ def prime?(x)
       counter +=1
     end
   end
-  x
 end
 
 #old code with crazy logic 
-#
+
 #def prime?(x)
 # if x == 0
 #   false
