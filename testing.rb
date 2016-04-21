@@ -1,10 +1,11 @@
-x=0
-y=1
-while y < 20
-  if y % 3 == 0 || y % 5 == 0 
-    x = x + y  
+def prime?(number)
+(2...number).to_a.each do |divisor|
+  if number % divisor == 0
+    return false
   end
-  y+=1
+end
+return true
+
 end
 
-print x
+puts prime?(3)
