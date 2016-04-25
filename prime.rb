@@ -1,37 +1,12 @@
 # Add  code here!
 def prime?(num)
-  #return false if interger <=
-  num = num.to_i
-  prime_array =[]
-  number = 0
-  while number < 9
-  	prime_flag = true
 
-  	x = 2
+  return false if num == 0 || num == 1
 
-  	while (x <= num / 2)
-  		if (num % x == 0)
-  			prime_flag = false
-  			break
-  		end
-  	x += 1
-  	end
-
-	if prime_flag
-	    prime_array << num
-	end
-
-	number += 1 
-
+  (2...num).each do |divisor|
+    return false if num % divisor == 0
   end
-  puts prime_array
-  if num == 0
-  	return prime_array.include?(num)
-  end
-   
-  prime_array.include?(num.to_i)
 
+  true
 
 end
-
-#rime?(3) 
