@@ -46,5 +46,3 @@ def prime?(int)
   end
   result
 end
-
-puts prime?(0)
