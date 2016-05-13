@@ -1,18 +1,17 @@
 int = 0
-
 def prime?(int)
-  (0..106000).each do |x|
-    x+=1
-    remainder = x % 2
-       case
-        when remainder == 0
-          return remainder == 0
-        when remainder == 1
-          return remainder != 0
-        when x == 0 || x == 1
-          return false
-        end
-  end
-end
+
+  array = (2..int-1).to_a
+  return false if int == 0
+  return false if int == 1
+
+  array.each do |rem|
+
+    remainder = int % rem
+    return false if remainder == 0
+    end
+      return true
+    end
 
 prime?(int)
+
