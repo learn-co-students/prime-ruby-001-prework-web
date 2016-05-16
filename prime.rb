@@ -14,5 +14,3 @@ def prime?(number)
 
   return check
 end
-
-prime?(101013)
