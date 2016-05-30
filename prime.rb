@@ -1,5 +1,12 @@
 def prime?(num)
-  return false if num < 2
-  Math.sqrt(num).to_i.downto(2).each {|i| return false if num % i == 0}
-  true
+  if num < 2
+    return false
+  else
+  (2..num).each do |i|
+    if num % i == 0 && i < num
+      return false
+    end
+  end
+  return true
+  end
 end
