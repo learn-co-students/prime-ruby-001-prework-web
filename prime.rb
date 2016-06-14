@@ -1,12 +1,9 @@
-def int_range
-  (2..9).to_a
-end
-
 def prime?(int)
-  if int % int_range == 0
+  if int == 3
+    return true
+  elsif int == 0 || int == 1
     return false
   else
-    return true
-  end
+  (2..int/2).none?{|i| int % i == 0}
 end
-    
+end
