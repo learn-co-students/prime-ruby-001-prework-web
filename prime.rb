@@ -8,7 +8,7 @@ def prime?(int)
   end
 
   #Else see if it's divisible by smaller numbers
-  for i in (2...int) do
+  (2...int).each do |i|
     if int % i == 0 then
       return false
     end
