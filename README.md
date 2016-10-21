@@ -18,7 +18,7 @@ A few things to think about:
 
 Requirements:
 
-* Do not use any other Ruby library, you must build a method that can verify whether a number is prime. Don't `require 'math'` and just piggyback off their implementation of prime number.
+* Do not use any other Ruby library. You must build a method that can verify whether a number is prime. Don't `require 'math'` and just piggyback off their implementation of prime number.
 
 ## Advanced
 
@@ -29,3 +29,5 @@ Think about the efficiency of your algorithm. How many iterations does it do? Lo
 * [Wikipedia](http://en.wikipedia.org/) - [Prime number](http://en.wikipedia.org/wiki/Prime_number)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/prime-ruby' title='Implementing Prime'>Implementing Prime</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/prime-ruby'>Prime? Lab</a> on Learn.co and start learning to code for free.</p>
